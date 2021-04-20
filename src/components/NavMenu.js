@@ -34,19 +34,19 @@ class NavMenu extends Component {
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink href={process.env.PUBLIC_URL + "/menu"}>MENU</NavLink>
+                                <NavLink href={process.env.PUBLIC_URL + "/#/menu"}>MENU</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href={process.env.PUBLIC_URL + "/catering"}>CATERING</NavLink>
+                                <NavLink href={process.env.PUBLIC_URL + "/#/catering"}>CATERING</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href={process.env.PUBLIC_URL + "/order"}>ORDER ONLINE</NavLink>
+                                <NavLink href={process.env.PUBLIC_URL + "/#/order"}>ORDER ONLINE</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href={process.env.PUBLIC_URL + "/reserve"}>RESERVATIONS</NavLink>
+                                <NavLink href={process.env.PUBLIC_URL + "/#/reserve"}>RESERVATIONS</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href={process.env.PUBLIC_URL + "/contactus"}>CONTACT</NavLink>
+                                <NavLink href={process.env.PUBLIC_URL + "/#/contactus"}>CONTACT</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
