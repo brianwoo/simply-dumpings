@@ -1,0 +1,171 @@
+body {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+/* @media screen and (max-width: 768px) {
+    body { padding-top: 100px; }
+} */
+
+.home_bg_img {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("main_header.jpg");
+
+    /* background-size: cover; */
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+.catering_bg_img {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("catering_header.jpg");
+
+    /* background-size: cover; */
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+.menu_bg_img {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("menu_header.jpg");
+
+    /* background-size: cover; */
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+.order_online_bg_img {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("order_header.jpg");
+
+    /* background-size: cover; */
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+.contact_bg_img {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("contact_header.jpg");
+
+    /* background-size: cover; */
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+.reservations_bg_img {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("reservations_header.jpg");
+
+    /* background-size: cover; */
+    background-size: cover;
+    min-height: 600px;
+    position: relative;    
+}
+
+.reservations-btn  {
+    color: #212529;
+    border-top-color: #6c757d;
+    border-bottom-color: #6c757d;
+    border-radius: 0;
+}
+
+.reservations-btn:active, .reservations-btn:hover, .reservations-btn:focus {
+    border-color: #6c757d;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(108, 117, 125, 0.6);
+}
+
+.reservations-find-btn {
+    border-radius: 0;
+}
+
+.reservation-title {
+    font-weight: 500;
+}
+
+.reservation-confirmed {
+    padding: 30px;
+    background-color: #31844B;
+    color: white;  
+}
+
+.smaller-text {
+    font-size: 1rem;
+}
+
+.home_jumbotron_text {    
+    color: white;    
+}
+
+a:link, a:visited {
+    color: inherit;
+}
+
+.menu-page-nav .nav-link {
+    color: inherit;
+    padding-bottom: 1px;
+}
+
+.menu-page-nav .nav-link.active {
+    border-bottom: 1px solid #212529;
+}
+
+.text-bold {
+    font-weight: 500;
+}
+
+.topic-text {
+    font-size: 1.50rem;
+}
+
+.form-field {
+    border-radius: 0;
+}
+
+.dishes-menu-text {
+    font-size: 1.15rem;
+}
+
+.dishes-menu-cText {
+    font-size: 1.00rem;
+}
+
+@media (min-width: 768px) {
+    .menu-bar {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: rgba(255,255,255,.5);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(33,37,41,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .menu-bar {
+        color: #212529;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+} 
