@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { connect } from 'react-redux';
-import { Redirect, Route, Router, Switch, withRouter } from 'react-router-dom/cjs/react-router-dom.min';
+import { Redirect, Route, Switch, withRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import { addMenuItems, findATable, selectActiveTab, selectReserveTimeSlot, setReserveDate, setReserveNumOfPeople, setReserveTime, submitCateringInquery, submitContactInquery, submitReservation } from '../redux/actionCreators';
 import Catering from './Catering';
 import Footer from './Footer';
@@ -101,7 +101,7 @@ class Main extends Component {
             <div>
                 <NavMenu/>
                 <Switch>
-                    <Route path='/home' component={HomePage}/>
+                    <Route path='/home'  component={HomePage}/>
                     <Route path='/catering' component={CateringPage} />
                     <Route path='/menu' component={MenuPage} />
                     <Route path='/order' component={OrderOnlinePage} />

@@ -26,7 +26,7 @@ class NavMenu extends Component {
             <div >
                 <Navbar className="menu-bar" expand="md" >
                     <NavbarToggler onClick={this.toggleNav}/>
-                    <NavbarBrand href="/">
+                    <NavbarBrand href={process.env.PUBLIC_URL + "/"}>
                         <img src="assets/images/dumpling_logo.png" 
                             alt="dumpling logo" 
                             height="70"/>
@@ -34,19 +34,19 @@ class NavMenu extends Component {
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink href="/menu">MENU</NavLink>
+                                <NavLink href={process.env.PUBLIC_URL + "/menu"}>MENU</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/catering">CATERING</NavLink>
+                                <NavLink href={process.env.PUBLIC_URL + "/catering"}>CATERING</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/order">ORDER ONLINE</NavLink>
+                                <NavLink href={process.env.PUBLIC_URL + "/order"}>ORDER ONLINE</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/reserve">RESERVATIONS</NavLink>
+                                <NavLink href={process.env.PUBLIC_URL + "/reserve"}>RESERVATIONS</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/contactus">CONTACT</NavLink>
+                                <NavLink href={process.env.PUBLIC_URL + "/contactus"}>CONTACT</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
