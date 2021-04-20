@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/simply-dumplings/static/css/main.9be04133.chunk.css",
+    "main.js": "/simply-dumplings/static/js/main.9b7b38c4.chunk.js",
+    "main.js.map": "/simply-dumplings/static/js/main.9b7b38c4.chunk.js.map",
+    "runtime-main.js": "/simply-dumplings/static/js/runtime-main.e758ea43.js",
+    "runtime-main.js.map": "/simply-dumplings/static/js/runtime-main.e758ea43.js.map",
+    "static/css/2.150d169a.chunk.css": "/simply-dumplings/static/css/2.150d169a.chunk.css",
+    "static/js/2.34cfd47e.chunk.js": "/simply-dumplings/static/js/2.34cfd47e.chunk.js",
+    "static/js/2.34cfd47e.chunk.js.map": "/simply-dumplings/static/js/2.34cfd47e.chunk.js.map",
+    "static/js/3.200c221f.chunk.js": "/simply-dumplings/static/js/3.200c221f.chunk.js",
+    "static/js/3.200c221f.chunk.js.map": "/simply-dumplings/static/js/3.200c221f.chunk.js.map",
+    "index.html": "/simply-dumplings/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/simply-dumplings/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.9be04133.chunk.css.map": "/simply-dumplings/static/css/main.9be04133.chunk.css.map",
+    "static/js/2.34cfd47e.chunk.js.LICENSE.txt": "/simply-dumplings/static/js/2.34cfd47e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/simply-dumplings/static/media/reservations_header.67fc9837.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e758ea43.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.34cfd47e.chunk.js",
+    "static/css/main.9be04133.chunk.css",
+    "static/js/main.9b7b38c4.chunk.js"
+  ]
+}
