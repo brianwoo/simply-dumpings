@@ -11,13 +11,13 @@ function App() {
 
   return (    
     <Provider store={store}>
-      <HashRouter>
-      {/* <BrowserRouter> */}
+      {/* <HashRouter> */}
+      <BrowserRouter>
         <div >
           <Main/>
         </div>
-      {/* </BrowserRouter> */}
-      </HashRouter>
+      </BrowserRouter>
+      {/* </HashRouter> */}
     </Provider>
   );
 }
